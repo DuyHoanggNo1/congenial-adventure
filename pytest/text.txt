@@ -1,0 +1,22 @@
+headers = {
+    'Host': 'jiekou.sdongapp.com',
+    'Androidid': '9b5f8181-4da8-43e4-a3c5-3b705a5963a1',
+    'Language': 'in',
+    'Packagename': 'vm.sdong.app.loan',
+    'Pushtoken': 'fWL4iwvlQwa2JlME7BfOzX:APA91bFw77CZbRAFfbUujds5s1HIW5lSiFwSHR6D2IePEhLLXC0kEU671lKNwNSJ_Nu-1tilyUpgMGNGRyCgsDoJDdPxWOdylGJWp6UgAuU04YLPMG0rhXruN2wKEiyzmfDgMDPEobu6',
+    'Appversioncode': '12',
+    'Firebaseappinstanceid': '9d67734b883a062c3c2ff6a91d4bb899',
+    'Content-Type': 'application/json; charset=UTF-8',
+    'Content-Length': '60',
+    'Accept-Encoding': 'gzip, deflate',
+    'User-Agent': 'okhttp/3.14.9',
+    'Connection': 'close',
+}
+
+json_data = {
+    'imgVerifyDistance': '111',
+    'mobile': sdt,
+    'type': '1',
+}
+
+response = requests.post('https://jiekou.sdongapp.com/ueufhw/jiejewjcnxyy', headers=headers, json=json_data, verify=False)
